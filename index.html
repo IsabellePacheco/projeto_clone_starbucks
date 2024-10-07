@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" type="imagem/x-icon" href="assets/starbucks-favicon.png">
+
     <link rel="stylesheet" href="style.css">
     <title>Starbucks Clone</title>
 </head>
@@ -12,23 +14,23 @@
 <body>
     <!-- tag semantica principal  -->
     <main>
-        <!-- dvi para o circulo  -->
+        <!-- div para o circulo  -->
         <div class="circulo"></div>
 
         <!-- header -->
         <header>
             <!-- logo -->
-            <a href="#"><img src="assets/logo.png" alt="logo da empresa"></a>
+            <a href="#"><img src="assets/logo.png" alt="logo da empresa" class="logo"></a>
             
             <!-- div menu hamburguer -->
             <div class="toggle" onclick="toggleMenu();"></div>
 
             <!-- links -->
             <ul class="links">
-              <li><a href="https://www.starbucks.com.br/">Home</a></li>
-              <li><a href="https://www.starbucks.com.br/menu-list">Menu</a></li>
-              <li><a href="https://www.starbucks.com.br/sobre">Novidades</a></li>
-              <li><a href="https://www.starbucks.com.br/lojas">Lojas</a></li>
+              <li><a href="https://www.starbucks.com.br/" target="_blank">Home</a></li>
+              <li><a href="https://www.starbucks.com.br/menu-list" target="_blank">Menu</a></li>
+              <li><a href="https://www.starbucks.com.br/sobre" target="_blank">Novidades</a></li>
+              <li><a href="https://www.starbucks.com.br/lojas" target="_blank">Lojas</a></li>
             </ul>
         </header>
 
@@ -43,7 +45,7 @@
                 <p>Descubra um mundo de sabores inesquecíveis com a Starbucks. Cada colherada é uma explosão de sabores irresistíveis que vão te conquistar.</p>
 
                 <!-- botao -->
-                <a href="https://www.starbucks.com.br/" target="_blank">Veja mais</a>
+                <a href="https://www.starbucks.com.br "target="_blank">Veja mais</a>
             </div>
 
             <!-- imagem do sorvete  -->
@@ -55,6 +57,20 @@
             <li><img src="assets/thumb1.png" onclick="imgSlider('assets/img1.png'); changeCircleColor ('#017143')"></li>
             <li><img src="assets/thumb2.png" onclick="imgSlider('assets/img2.png'); changeCircleColor ('#eb7495')"></li>
             <li><img src="assets/thumb3.png" onclick="imgSlider('assets/img3.png'); changeCircleColor ('#d752b1')"></li>
+        </ul>
+        <!-- lista redes sociais  -->
+        <ul class="sociais">
+            <li><a href="https://www.facebook.com/?locale=pt_BR" target="_blank ">
+                <img src="assets/facebook.png" alt="fecebook">
+            </a></li>
+
+            <li><a href="https://www.threads.net/tag/Treeds "target="_blank ">
+                <img src="assets/threads .png" alt="threads" id="threads">
+            </a></li>
+
+            <li><a href="https://www.instagram.com/" target="_blank ">
+                <img src="assets/instagram.png" alt="instagram">
+            </a></li>
         </ul>
     </main>
 </body>
