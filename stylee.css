@@ -229,7 +229,7 @@ header ul li a:hover{
         filter: invert(1);
         z-index: 11;
     }
-    .toggle .active{
+    .toggle.active{
         position: fixed;
         right: 20px;
         /* preenhido com a imagem fechar */
